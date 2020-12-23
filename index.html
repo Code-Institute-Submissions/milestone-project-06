@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     
     <!-- My CSS -->
-    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,43 +20,207 @@
     <title>Milestone Project 01 - Personal Portfolio</title>
 </head>
 <body>
-    <div class="container pt-3">
-        <div class="row">
-            <div class="col-6 d-flex justify-content-start align-items-center">
-                <i class="fas fa-code fa-2x pb-3"></i>
-                <h5 class="d-inline ps-2 text-secondary">Portfolio</h5>
-            </div>
-            <div class="col-6 pt-2">
-                <div class="row">
-                    <div class="col-3">
-                        <a href="#about" class="text-dark navigation-link">About Me</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#project" class="text-dark navigation-link">My Projects</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#contact" class="text-dark navigation-link">Contact Me</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#cv" class="text-dark navigation-link">My CV</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <!-- navigation-link and Logo -->
+
+    <div id="navbar" class="sticky">
+        <header>
+            <i class="fas fa-code fa-2x logo text-primary"> <span class="text-dark" style="font-family:Georgia, 'Times New Roman', Times, serif;">Portfolio</span></i>
+            <nav>
+                <ul class="nav_link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cv">My CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./assets/cv/atiq-cv.pdf" target="_blank"><button>Download CV</button></a>
+        </header>
     </div>
-    <div class="container main-container">
+   
+    <!-- Banner -->
+
+    <div class="container main-container p-5">
         <div class="row main_row">
             <div class="col-6">
-                <h2 class="text-dark">HELLO! I'M</h2>
+                <h2 class="text-primary">HELLO! I'm</h2>
                 <h1 class="text-dark m-heading">Atiq Been Rahim</h1>
-                <h2 class="text-secondary">Full Stack Web Developer</h2>
-
+                <h2 class="text-secondary">Full Stack Developer</h2>
             </div>
             <div class="col-6 image">
-                <img src="../milestone-project-01/assests/images/Atiq.png" alt="atiq">
-
+                <img src="./assets/images/atiq.png" alt="atiq">
             </div>
         </div>
     </div>
+
+   <!-- About Section -->
+   
+   <div id="about" class="container about p-5">
+       <div class="row">
+           <div class="col-6 smily">
+               <i class="far fa-grin-alt fa-5x text-primary"></i>
+            </div>
+            <div class="col-6 pl-5 pt-5 pb-5">
+                <h3 class="text-primary">About Me</h3>
+                <h1 class="m-heading">A little bit about me</h1>
+                <p>
+                    I am a skilled Full Stack Developer with a wealth of 
+                    <b class="text-primary">diverse life and technical experience</b>
+                    that i bring to every project! I follow form as well as function. 
+                    I know that the <b class="text-primary">aesthetics of effective</b> 
+                    design combined with application speed, security, and reliability 
+                    combine to create a <b class="text-primary">great</b> user experience.
+                 </p>
+                <br/>
+                <p>
+                    I work <b class="text-primary">quickly and effectively</b> in getting 
+                    things built and working accross the stack. I am an excellent 
+                    <b class="text-primary">communicator</b> who thrives in bright and 
+                    enthusiastic teams and i am also a self starter when working solo.
+                </p>
+                <a href="#cv"><button class="btn btn-outline-primary">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- My CV section -->
+
+    <div id="cv" class="container cv p-5">
+        <div class="row">
+            <div class="col-6 pl-5 pt-5 pb-5">
+                <h3 class="text-primary">My Skills</h3>
+                <h4 class="uppercase pt-2">Front End</h4>
+                <p>
+                    I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. 
+                    I also have extensive experience in Front End Frameworks such as Angular and React 
+                </p>
+                <h4 class="uppercase pt-2">Back End</h4>
+                <p>
+                    I specialize in data-driven web applications. Many of my projects utilise document-based data. 
+                    I use Python and Django in conjunction with MongoDB to process and present information.
+                </p>
+               
+                <br/>
+                
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                        <span class="sr-only">90% complete</span>
+                    </div>
+                    <span class="progress-type">HTML / HTML5</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                        <span class="sr-only">80% complete</span>
+                    </div>
+                    <span class="progress-type">CSS / CSS3</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                        <span class="sr-only">70% complete</span>
+                    </div>
+                    <span class="progress-type">JavaScript / jQuery</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                        <span class="sr-only">80% complete</span>
+                    </div>
+                        <span class="progress-type">Django / Python</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                        <span class="sr-only">80% complete</span>
+                    </div>
+                    <span class="progress-type">SQL / NoSQL</span>
+                </div>
+            </div>
+            <div class="col-6 pl-5 pt-5 pb-5 ps-5">
+                <h3 class="text-primary">Work History</h3>
+                <div class="history-items">
+                    <div class="timeline-item" data-dates="04/2011 - 06/2014">
+                        <h4>SSG Properties Ltd.</h4>
+                        <p>Customer Service Executive</p>
+                    </div>
+                    <div class="timeline-item" data-dates="07/2014 - 01/2019">
+                        <h4>Super Star Group Ltd.</h4>
+                        <p>Personal Assistan to the Managing Director & CEO</p>
+                    </div>
+                    <div class="timeline-item" data-dates="04/2019 - Current">
+                        <h4>Covalen Solutions Ltd.</h4>
+                        <p>Community Operations Analyst</p>
+                    </div>
+                </div>
+                <a href="#contact"><button class="btn btn-outline-primary">Hire Me!</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+
+    <div id="contact" class="row bg-color-contact pl-5 pt-5 pb-5 ps-5">
+        <div class="col">
+            <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+            <h5 class="uppercase text-center"> Let's work together!</h5>
+
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" id="fillname" class="form-control" placeholder="Name" required/>
+                    <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummery" id="projectsummery" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer section -->
+   
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4 pt-5">
+                <h5 class="uppercase general-sub text-info">2020 copyright @atiq been rahim</h5>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">Need a printable version of my CV? Download it here.</p>
+                <a href="./assets/cv/atiq-cv.pdf" target="_blank" class="cv-pdf">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">Download link.</span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/abr.royal/">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/AtiqBeenRahim">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/atiqbeenrahim">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/atiqbeenrahim">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
