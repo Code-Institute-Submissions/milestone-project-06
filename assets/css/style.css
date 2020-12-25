@@ -15,10 +15,6 @@ body {
     font-family: "Roboto Slab", serif;
 }
 
-.main-container {
-    min-height: 110vh;
-}
-
 /* Banner style */
 
 .main_row {
@@ -183,7 +179,7 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
 
 .social-links li a i {
