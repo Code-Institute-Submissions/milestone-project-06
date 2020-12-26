@@ -1,4 +1,4 @@
-# milestone-project-01
+# Milestone Project 01: User Centric Frontend Development
 ## Atiq Been Rahim - Portfolio
 
 [View the live project here.](https://atiqbeenrahim.github.io/milestone-project-01/)
