@@ -50,23 +50,28 @@ body {
   width: 100%;
 }
 
-/* Banner style */
+/* Hero section style */
+
 
 .main_row {
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;
     align-items: center;
 }
 
 .main_row h1 {
     font-size: 3rem;
     text-align: right;
-    transition: 0.5s ease-out;
 }
 .main_row h2 {
     text-align: right;
     font-weight: 600;
-    transition: 1s ease-out;
+}
+
+.main_row a button {
+    color: #000;
+    border-color: #000;
+    font-weight: 600;
+    font-size: 10px;
 }
 
 .main_row img {
@@ -77,21 +82,27 @@ body {
 }
 
 .image {
-    text-align: left;
-    transition: 0.6s ease-in;
+    text-align: center;
 }
 
 /* About me section style */
 
+.about_row {
+    min-height: 100vh;
+    align-items: center;
+}
 
 .smily {
     font-size: 3rem;
     text-align: center;
     padding-top: 50px;
-    transition: 0.5s ease-out;
 }
 
 /* My CV Section style */
+
+.cv_row {
+    min-height: 100vh;
+}
 
 .progress {
     position: relative;
@@ -157,8 +168,19 @@ body {
     margin-bottom: 30px;
 }
 
+/* projects section */
+
+.projects_row {
+    min-height: 100vh;
+}
+
 
 /* Contact section */
+
+.contact_row {
+    min-height: 100vh;
+    align-items: center;
+}
 
 #contact {
     border-radius: 0.5rem;
