@@ -36,7 +36,7 @@ This is the User Centric Frontend Development project for Full Stack Software De
 
 *   ### Wireframes
 
-    -   Large screen Wireframe - [View](https://app.diagrams.net/#Hatiqbeenrahim%2Fmilestone-project-01%2Fmain%2Fassets%2FUntitled%20Diagram.drawio)
+    -   Large screen Wireframe - [View](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fatiqbeenrahim%2Fmilestone-project-01%2Fmain%2Fassets%2FUntitled%2520Diagram.drawio)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
@@ -69,7 +69,7 @@ This is the User Centric Frontend Development project for Full Stack Software De
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to resizing images and editing photos for the website.
 1. [draw.io:](http://draw.io/)
-    - draw.io was used to create the [wireframes](https://app.diagrams.net/#Hatiqbeenrahim%2Fmilestone-project-01%2Fmain%2Fassets%2FUntitled%20Diagram.drawio) during the design process.
+    - draw.io was used to create the [wireframes](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fatiqbeenrahim%2Fmilestone-project-01%2Fmain%2Fassets%2FUntitled%2520Diagram.drawio) during the design process.
 
 ## Testing
 
