@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
         <div class="container-fluid">
-            <i class="fas fa-code fa-2x logo text-warning"><a class="navbar-brand" href="index.html"><span class="ps-2 text-white">Portfolio</span></a></i>
+            <i class="fas fa-code fa-2x logo text-warning"><a class="navbar-brand" href="index.html"><span class="ps-2 text-white">Atiq Been Rahim</span></a></i>
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,7 +44,7 @@
                         <a class="nav-link text-white" href="#cv">My CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Projects</a>
+                        <a class="nav-link text-white" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="contact.html">Contact</a>
@@ -59,29 +59,27 @@
         </div>
     </nav>
 
-    <!-- Banner section-->
+    <!-- Hero section-->
 
-    <section>
         <div class="container-fluid">
-            <div class="row p-5 main_row">
-                <div class="col-md-6">
-                    <h2 class="text-warning fw-bold">Hello! I'm</h2>
-                    <h1 class="text-dark m-heading">Atiq Been Rahim</h1>
-                    <h2 class="text-secondary">Full Stack Developer</h2>
+            <div class="row main_row">
+                <div class="col-md-6 hero">
+                    <h2 class="text-warning fw-bold">Hello!</h2>
+                    <h1 class="text-dark m-heading">I'm Atiq</h1>
+                    <h2 class="text-secondary">Full Stack Developer
+                    </br><a href="#about"><button class="btn btn-outline-warning">See more</button></a></h2>
                 </div>
-                <div class="col-md-6 d-none d-md-block">
+                <div class="col-md-6 col-md-pull-6 d-none d-md-block">
                     <img src="./assets/images/atiq.png" class="image" alt="atiq">
                 </div>
             </div>
         </div>
-    </section>
 
     <!-- About Section -->
 
-    <Section>
         <div id="about" class="container-fluid about p-5 bg-dark">
-            <div class="row">
-                <div class="col-md-6 smily d-none d-md-block">
+            <div class="row about_row">
+                <div class="col-md-6 smily">
                     <i class="fas fa-smile-beam fa-5x text-warning"></i>
                 </div>
                 <div class="col-md-6 pl-5 pt-5 pb-5">
@@ -106,16 +104,11 @@
                 </div>
             </div>
         </div>
-    </Section>
-
-
-
 
     <!-- My CV section -->
 
-    <section>
         <div id="cv" class="container-fluid cv p-5">
-            <div class="row">
+            <div class="row cv_row">
                 <div class="col-md-6 pl-5 pt-5 pb-5">
                     <h3 class="text-warning fw-bold bg-dark ps-3 pt-1">My Skills</h3>
                     <h4 class="uppercase pt-2">Front End</h4>
@@ -179,16 +172,60 @@
                         </div>
                     </div>
                 </div>
-                <div class="col container-fluid bg-dark">
-                    <h3 class="contact-heading uppercase text-center pt-3 text-warning">Got a project in mind?</h3>
-                    <h5 class="uppercase text-center text-white"> Let's work together!</h5>
-                    <div class="d-grid text-center pb-5">
-                        <a href="contact.html"><button class="btn btn-outline-warning">Hire Me!</button></a>
+
+            </div>
+        </div>
+
+    <!-- Project section -->
+
+    <div id="projects" class="container-fluid about p-5 bg-dark">
+        <div class="row projects_row">
+            <h3 class="text-warning text-center pb-5">My Projects</h3>
+            <div class="col">
+                <div class="card h-100">
+                        <img src="./assets/images/pd.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">This is the User Centric Frontend Development project for Full Stack Software Developement course.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card h-100">
+                        <img src="./assets/images/pd.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">This is the User Centric Frontend Development project for Full Stack Software Developement course.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                        <img src="./assets/images/pd.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">This is the User Centric Frontend Development project for Full Stack Software Developement course.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <h3 class="contact-heading uppercase text-center pt-3 text-warning">Got a project in mind?</h3>
+            <h5 class="uppercase text-center text-white"> Let's work together!</h5>
+                <div class="d-grid text-center">
+                    <a href="contact.html"><button class="btn btn-outline-warning">Hire Me!</button></a>
+                </div>
+
+
         </div>
-    </section>
+    </div>
 
     <!-- Footer section -->
 
@@ -255,7 +292,6 @@
                 © 2020 Copyright:
                 <a class="text-warning" href="index.html">Atiq Been Rahim</a>
             </div>
-        <!-- Copyright -->
     </footer>
 </body>
 </html>
