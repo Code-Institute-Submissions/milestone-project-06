@@ -149,7 +149,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--   All content was written by the developer.
+-   All content was written by the developer except about me text (some part) and my skills text (copied from Rosie Website of the course) .
 
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
