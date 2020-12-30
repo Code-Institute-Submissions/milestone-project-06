@@ -28,7 +28,7 @@ This is the User Centric Frontend Development project for Full Stack Software De
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Bootstrap 5 Warning and Dark (Black and Deep Yellow).
+        -   The two main colours used are Bootstrap 5 Dark and Warning (#212529 and #ffc107).
     -   #### Typography
         -   The Roboto Slab font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto Slab is a clean font used frequently in programming, so it is both attractive and appropriate. Also used Baloo Tamma 2 font as secondary to give some styling and used Cursive as the fallback font.
     -   #### Imagery

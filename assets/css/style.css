@@ -14,25 +14,11 @@ body {
 .m-heading {
     font-family: "Roboto Slab", serif;
 }
+
 /* Navbar style */
 
 .navbar .navbar-nav .nav-link:hover {
   color: #f0ad4e;
-}
-
-@media only screen and (min-width: 960px) {
-  .navbar .navbar-nav .nav-link {
-    padding: 1em 0.7em;
-  }
-  .navbar {
-    padding: 0;
-    font-size: 20px;
-  }
-  .navbar .navbar-brand {
-    font-family: "Roboto Slab", serif;
-    font-size: 25px;
-    padding: 0 0.5em;
-  }
 }
 
 .navbar .navbar-nav .nav-link {
@@ -56,6 +42,7 @@ body {
 .navbar .navbar-nav .nav-link:hover::after {
   width: 100%;
 }
+
 
 /* Hero section style */
 
@@ -92,74 +79,8 @@ body {
 }
 
 
-@media all and (max-width: 900px) {
-    .main_row h1 {
-    font-size: 4rem;
-    text-align: right;
-    padding-right: 20px;
-    }
-    .main_row h2 {
-    font-size: 2.2rem;
-    text-align: right;
-    font-weight: 500;
-    padding-right: 20px;
-    }
-    .main_row a button {
-    color: #000;
-    border-color: #000;
-    font-weight: 400;
-    font-size: 25px;
-    }
-    .main_row img {
-    width: auto;
-    height: 25rem;
-    padding-left: 30px;
-    border-radius: 120px 20px 120px 20px;
-    object-fit: cover;
-    }
-}
-
-@media all and (max-width: 500px) {
-    .main_row h1 {
-    font-size: 3rem;
-    text-align: right;
-    padding-right: 20px;
-    }
-    .main_row h2 {
-    font-size: 2rem;
-    text-align: right;
-    font-weight: 600;
-    padding-right: 20px;
-    }
-    .main_row a button {
-    color: #000;
-    border-color: #000;
-    font-weight: 400;
-    font-size: 20px;
-    }
-}
-
-@media all and (max-width: 350px) {
-    .main_row h1 {
-    font-size: 2rem;
-    text-align: right;
-    padding-right: 20px;
-    }
-    .main_row h2 {
-    font-size: 1.5rem;
-    text-align: right;
-    font-weight: 600;
-    padding-right: 20px;
-    }
-    .main_row a button {
-    color: #000;
-    border-color: #000;
-    font-weight: 400;
-    font-size: 15px;
-    }
-}
-
 /* About me section style */
+
 
 .about_row {
     align-items: center;
@@ -186,41 +107,6 @@ body {
     font-size: 25px;
 }
 
-@media all and (max-width: 900px) {
-    .smily {
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 8px;
-    }
-    .about_row button {
-    font-weight: 400;
-    font-size: 25px;
-    }
-}
-
-@media all and (max-width: 500px) {
-    .smily {
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 10px;
-    }
-    .about_row button {
-    font-weight: 400;
-    font-size: 20px;
-    }
-}
-
-@media all and (max-width: 350px) {
-    .smily {
-    font-size: 1rem;
-    text-align: center;
-    padding-top: 10px;
-    }
-    .about_row button {
-    font-weight: 400;
-    font-size: 15px;
-    }
-}
 
 /* My CV Section style */
 
@@ -301,18 +187,10 @@ body {
     font-size: 25px;
 }
 
-@media all and (max-width: 500px) {
-    .hire button {
-    font-weight: 400;
-    font-size: 20px;
-    }
-}
-
 /* Contact section */
 
-
-#contact {
-    border-radius: 0.5rem;
+.contact_row {
+    min-height: calc(100vh - 319px);
 }
 
 .contact-heading {
@@ -333,7 +211,6 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
 }
-
 
 /* Footer section */
 
@@ -374,6 +251,132 @@ button[type="submit"] {
 
 .social-links li a i:hover {
     background: #000;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar {
+    padding: 0;
+    font-size: 16px;
+  }
+  .navbar .navbar-brand {
+    font-size: 25px;
+    padding: 0 0.5em;
+  }
+}
+
+@media all and (max-width: 900px) {
+    .main_row h1 {
+    font-size: 4rem;
+    text-align: right;
+    padding-right: 20px;
+    }
+    .main_row h2 {
+    font-size: 2.2rem;
+    text-align: right;
+    font-weight: 500;
+    padding-right: 20px;
+    }
+    .main_row a button {
+    color: #000;
+    border-color: #000;
+    font-weight: 400;
+    font-size: 25px;
+    }
+    .main_row img {
+    width: auto;
+    height: 25rem;
+    padding-left: 30px;
+    border-radius: 120px 20px 120px 20px;
+    object-fit: cover;
+    }
+
+    .smily {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 8px;
+    }
+    .about_row button {
+    font-weight: 400;
+    font-size: 25px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .main_row h1 {
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 20px;
+    }
+    .main_row h2 {
+    font-size: 2rem;
+    text-align: right;
+    font-weight: 600;
+    padding-right: 20px;
+    }
+    .main_row a button {
+    color: #000;
+    border-color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    }
+
+    .smily {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    }
+    .about_row button {
+    font-weight: 400;
+    font-size: 20px;
+    }
+
+    .hire button {
+    font-weight: 400;
+    font-size: 20px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .main_row h1 {
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 20px;
+    }
+    .main_row h2 {
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 600;
+    padding-right: 20px;
+    }
+    .main_row a button {
+    color: #000;
+    border-color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    }
+
+    .smily {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
+    }
+    .about_row h1 {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    }
+    .about_row p {
+    font-size: 15px;
+    padding-top: 10px;
+    }
+    .about_row button {
+    font-weight: 400;
+    font-size: 15px;
+    }
 }
 
 /* End of style sheet */
